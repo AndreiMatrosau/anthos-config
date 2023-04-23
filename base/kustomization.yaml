@@ -1,6 +1,6 @@
 helmCharts:
-- name: cert-manager
-  repo: https://charts.jetstack.io
-  version: v1.5.3
-  releaseName: my-cert-manager
-  namespace: cert-manager
+- name: dynatrace-operator
+  repo: https://raw.githubusercontent.com/Dynatrace/dynatrace-operator/master/config/helm/repos/stable
+  version: 0.9.1
+  releaseName: dynatrace-operator
+  namespace: dynatrace
